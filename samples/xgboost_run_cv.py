@@ -2,8 +2,7 @@
 
 import pandas as pd
 import xgboost as xgb
-import preproc
-import proc
+from armory import preproc, proc
 
 
 train = pd.read_csv('./partial.csv')

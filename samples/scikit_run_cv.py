@@ -2,8 +2,7 @@
 from sklearn.ensemble import *
 from sklearn.linear_model import LogisticRegression
 import pandas as pd
-import preproc
-import proc
+from armory import preproc, proc
 
 
 train = pd.read_csv("partial.csv")
