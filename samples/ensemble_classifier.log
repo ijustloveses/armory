@@ -1,0 +1,19 @@
+Accuracy: 0.88 (+/- 0.01) [Emsemble]
+Accuracy: 0.87 (+/- 0.01) [Ensemble of ensemble]
+0.846 (+/-0.005) for {'randomforestclassifier__n_estimators': 20, 'logisticregression__C': 1.0}
+0.850 (+/-0.003) for {'randomforestclassifier__n_estimators': 200, 'logisticregression__C': 1.0}
+0.849 (+/-0.005) for {'randomforestclassifier__n_estimators': 20, 'logisticregression__C': 100.0}
+0.852 (+/-0.003) for {'randomforestclassifier__n_estimators': 200, 'logisticregression__C': 100.0}
+
+Proc.cv running...
+
+************* Running  Eclf  with  2  folds ******************
+---------- fold # 1  begins ----------
+accuracy:  83.48
+---------- fold # 2  begins ----------
+accuracy:  84.577
+
+         Feature Importances:
+                 n/a
+
+======> Average accuracy: 84.029%, f1score:  0.645

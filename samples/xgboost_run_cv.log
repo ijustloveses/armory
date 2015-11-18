@@ -1,0 +1,11 @@
+
+************* Running  Xgboost  with  2  folds ******************
+---------- fold # 1  begins ----------
+accuracy:  91.14
+---------- fold # 2  begins ----------
+accuracy:  90.058
+
+	 Feature Importances:
+		 n/a
+
+======> Average accuracy: 90.599%, f1score:  0.715
